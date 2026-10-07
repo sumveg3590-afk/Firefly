@@ -2,7 +2,6 @@
 title: 我的第一篇文章
 published: 2026-10-07
 description: 时间节奏表
-image: 
 tags: [计划]
 draft: false
 ---

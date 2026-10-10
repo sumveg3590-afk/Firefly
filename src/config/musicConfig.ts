@@ -18,7 +18,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	playMode: "list",
 
 	// 是否显启用歌词
-	showLyrics: false,
+	showLyrics: true,
 
 	// Meting API 配置
 	meting: {
@@ -42,17 +42,17 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 
 	// 本地音乐配置（当 mode 为 'local' 时使用）
 	// 1. 支持传入歌词文件的路径
-	// lrc: "/assets/music/lrc/使一颗心免于哀伤-哼唱.lrc",
+	// lrc: "/assets/music/lrc/酣梦于彼岸深红 - 鸣潮先约电台.lrc",
 	// 2. 或者直接填入歌词字符串内容
 	// lrc: "[00:00.00]歌词内容...",
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
-				lrc: "",
+				name: "酣梦于彼岸深红",
+				artist: "鸣潮先约电台",
+				url: "/assets/music/酣梦于彼岸深红 - 鸣潮先约电台.mp3",
+				cover: "/assets/music/cover/7f9f5f29-bfd1-4b78-821e-4a67827c9d04.png",
+				lrc: "/assets/music/lrc/酣梦于彼岸深红 - 鸣潮先约电台.lrc",
 			},
 		],
 	},
